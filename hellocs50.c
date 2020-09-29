@@ -1,3 +1,8 @@
+/*
+EDMOND VUJICI CS50x 2020
+*/
+
+
 //Explanations both in Turkish and English
 
 //Insert the libraries that are needed.
