@@ -21,9 +21,10 @@ int main (int argc, string argv[])
     if(argc!=2 || !check_key_valid(argv[1]))
     {
         printf("Usage: ./caesar key\n");
-        return 0;
-        //return 0 is used to finish a program if the input is wrong, or any other action.
-        //retunr 0 herhangi bir yanlis girdi ya da islem yapildiginda programi daha erken bitirmek icin kullanilir.
+        return 1;
+            
+        //return 1 is used to finish a program if the input is wrong, or any other action.
+        //retunr 1 herhangi bir yanlis girdi ya da islem yapildiginda programi daha erken bitirmek icin kullanilir.
     }
     int key = atoi(argv[1]);
     //atoi is in ctype.h and is used to parse a numerical string to a number.
