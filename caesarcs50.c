@@ -82,7 +82,9 @@ bool check_key_valid(string key)
         if(!isdigit(key[i]))
             return false;
             //if not numerical returns false;
+            //sayisal bir degere sahip degilse false dondurur.
     }
         return true;
         //if numerical returns true.
+        //sayisalsa true dondurur.
 }
