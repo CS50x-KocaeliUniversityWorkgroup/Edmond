@@ -1,6 +1,7 @@
 /*
-EDMOND V. CS50x 2020
+EDMOND VUJICI CS50x 2020
 */
+
 
 #include <stdio.h>
 #include <cs50.h>
