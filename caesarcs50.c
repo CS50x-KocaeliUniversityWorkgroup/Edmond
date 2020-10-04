@@ -57,7 +57,7 @@ int main (int argc, string argv[])
             if(islower(c))
                 m = 'a';
                 //to cipher a lowercase letter we need to add the ASCII value of "a" to the normal letter.
-                //buyuk harfleri sifrelemek uzere kucuk a'nin ASCII degerini eklememiz lazim.
+                //kucuk harfleri sifrelemek uzere kucuk a'nin ASCII degerini eklememiz lazim.
                 
             
             printf("%c", (c-m+key)%26 + m);
