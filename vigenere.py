@@ -1,3 +1,4 @@
+from sys import argv
 alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 alphabet_lower = [letter.lower() for letter in alphabet]
 # almost the same as caesar
